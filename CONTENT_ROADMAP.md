@@ -76,7 +76,7 @@ The site uses a tiny static generator:
 | Status | Category | Page title | Suggested URL | Long-tail targets | Product types |
 | --- | --- | --- | --- | --- | --- |
 | published | Narrow Kitchen | Narrow Trash Can Under 10 Inches Wide | `/guides/narrow-kitchen/narrow-trash-can-under-10-inches/` | narrow trash can under 10 inches wide; slim kitchen trash can for narrow space; small trash can beside cabinet | slim rectangular cans, butterfly-lid cans, under-sink cans |
-| next | Bedroom Tight Spaces | Nightstand Under 12 Inches Wide | `/guides/bedroom-tight-spaces/nightstand-under-12-inches-wide/` | nightstand under 12 inches wide; narrow bedside table for small room; slim nightstand with drawer | narrow nightstands, C-tables, wall shelves |
+| published | Bedroom Tight Spaces | Nightstand Under 12 Inches Wide | `/guides/bedroom-tight-spaces/nightstand-under-12-inches-wide/` | nightstand under 12 inches wide; narrow bedside table for small room; slim nightstand with drawer | narrow nightstands, C-tables, wall shelves |
 | published | Under-Sink & Cabinets | Under Sink Organizer Around Pipes | `/guides/under-sink-cabinets/under-sink-organizer-around-pipes/` | under sink organizer around pipes; under sink storage with plumbing; organizer for sink cabinet with pipes | adjustable under-sink shelves, caddies, bins |
 | planned | Entryway & Shoes | Shoe Rack for Narrow Entryway | `/guides/entryway-shoes/shoe-rack-for-narrow-entryway/` | shoe rack for narrow entryway; slim shoe storage for hallway; shallow shoe rack by front door | narrow racks, vertical racks, shoe benches |
 | planned | Small Bathroom | Slim Laundry Hamper for Small Bathroom | `/guides/small-bathroom/slim-laundry-hamper-small-bathroom/` | slim laundry hamper for small bathroom; narrow hamper under 10 inches; skinny laundry basket bathroom | slim hampers, rolling hampers, lidded hampers |
@@ -95,7 +95,7 @@ The site uses a tiny static generator:
 | # | Status | Category | Page title | Suggested URL | Long-tail targets | Product types |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | published | Narrow Kitchen | Narrow Trash Can Under 10 Inches Wide | `/guides/narrow-kitchen/narrow-trash-can-under-10-inches/` | narrow trash can under 10 inches wide; slim kitchen trash can narrow gap | slim trash cans |
-| 2 | next | Bedroom Tight Spaces | Nightstand Under 12 Inches Wide | `/guides/bedroom-tight-spaces/nightstand-under-12-inches-wide/` | nightstand under 12 inches wide; narrow bedside table | slim nightstands |
+| 2 | published | Bedroom Tight Spaces | Nightstand Under 12 Inches Wide | `/guides/bedroom-tight-spaces/nightstand-under-12-inches-wide/` | nightstand under 12 inches wide; narrow bedside table | slim nightstands |
 | 3 | published | Under-Sink & Cabinets | Under Sink Organizer Around Pipes | `/guides/under-sink-cabinets/under-sink-organizer-around-pipes/` | under sink organizer around pipes; under sink storage with plumbing | under-sink organizers |
 | 4 | planned | Entryway & Shoes | Shoe Rack for Narrow Entryway | `/guides/entryway-shoes/shoe-rack-for-narrow-entryway/` | shoe rack for narrow entryway; slim hallway shoe storage | shoe racks |
 | 5 | planned | Small Bathroom | Slim Laundry Hamper for Small Bathroom | `/guides/small-bathroom/slim-laundry-hamper-small-bathroom/` | slim laundry hamper small bathroom; narrow hamper under 10 inches | slim hampers |
