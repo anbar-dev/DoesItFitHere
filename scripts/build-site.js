@@ -11,7 +11,7 @@ const site = {
   name: "Fits In My Space",
   baseUrl: "https://doesitfithere.com",
   customDomain: "doesitfithere.com",
-  analyticsId: "",
+  analyticsId: "G-6QJRD6CX1C",
   description: "Shopping guides for narrow, compact, under-sink, over-door, low-clearance, and awkward spaces."
 };
 
@@ -238,7 +238,16 @@ function renderFooter(root) {
 }
 
 function renderAnalytics() {
-  return "";
+  if (!site.analyticsId) return "";
+
+  return `
+  <script async src="https://www.googletagmanager.com/gtag/js?id=${escapeHtml(site.analyticsId)}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '${escapeHtml(site.analyticsId)}');
+  </script>`;
 }
 
 function renderPage({ title, description, urlPath, body }) {
