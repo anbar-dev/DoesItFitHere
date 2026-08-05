@@ -1,0 +1,7 @@
+{
+  "name": "fits-in-my-space",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build-site.js"
+  }
+}

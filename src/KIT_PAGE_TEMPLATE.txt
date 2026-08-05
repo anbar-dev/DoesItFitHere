@@ -1,0 +1,95 @@
+﻿<!--
+title: Page Title | Fits In My Space
+description: Short SEO description for this fit-first buying guide.
+path: /guides/category-slug/page-slug/
+type: fit-guide
+category: category-slug
+summary: One-sentence summary used on category cards.
+-->
+    <section class="page-hero">
+      <div class="page-title">
+        <p class="eyebrow">Category label</p>
+        <h1>Page headline with the measurement constraint.</h1>
+        <p>Short intro focused on the fit problem, the failed-purchase risk, and what the reader must measure before buying.</p>
+      </div>
+    </section>
+    <section class="section compact">
+      <div class="scoreboard">
+        <div class="score"><span>Critical measure</span><strong>Width</strong></div>
+        <div class="score"><span>Best first filter</span><strong>Max depth</strong></div>
+        <div class="score"><span>Common fail</span><strong>Door swing</strong></div>
+        <div class="score"><span>Buyer intent</span><strong>Very high</strong></div>
+      </div>
+      <div class="article-shell">
+        <article>
+          <div class="disclosure">This page contains Amazon affiliate links. As an Amazon Associate, Fits In My Space earns from qualifying purchases. Product details can change on Amazon.</div>
+          <section class="content-block" id="verdict">
+            <h2>Quick verdict</h2>
+            <p>Write the real recommendation here.</p>
+          </section>
+          <section class="content-block" id="measure">
+            <h2>Measure this before buying</h2>
+            <ul>
+              <li>Inside width.</li>
+              <li>Usable depth after doors, handles, pipes, outlets, or baseboards.</li>
+              <li>Height or clearance needed to open, slide, roll, or lift the product.</li>
+            </ul>
+          </section>
+          <section class="content-block" id="products">
+            <h2>Recommended product types</h2>
+            <div class="product-list">
+              <div class="product">
+                <div class="product-media text-only"><span>Measure first</span></div>
+                <div>
+                  <h3>Product type <span>for the exact fit use case</span></h3>
+                  <p>Explain why it belongs here and when to skip it.</p>
+                  <a class="button amazon" href="https://www.amazon.com/s?k=SEARCH+TERM&tag=fitsin-20">Search on Amazon</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="content-block" id="fits-skip">
+            <h2>Fits if / skip if</h2>
+            <table class="kit-table">
+              <thead>
+                <tr><th>Option</th><th>Fits if</th><th>Skip if</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Product type</td><td>Your measured space has the needed clearance.</td><td>The usable space is smaller than the product footprint.</td></tr>
+              </tbody>
+            </table>
+          </section>
+          <section class="content-block" id="mistakes">
+            <h2>Common fit mistakes</h2>
+            <ul>
+              <li>Measuring the opening but not the usable depth.</li>
+              <li>Forgetting door, drawer, lid, pipe, outlet, or baseboard clearance.</li>
+              <li>Buying the largest product that technically fits, then having no room to use it.</li>
+            </ul>
+          </section>
+          <section class="content-block" id="faq">
+            <h2>FAQ</h2>
+            <h3>Question with the target keyword?</h3>
+            <p>Short answer.</p>
+          </section>
+        </article>
+        <aside class="card sidebar">
+          <h2>On this page</h2>
+          <nav class="quick-nav" aria-label="Page sections">
+            <a href="#verdict">Quick verdict</a>
+            <a href="#measure">Measure first</a>
+            <a href="#products">Product types</a>
+            <a href="#fits-skip">Fits / skip</a>
+            <a href="#mistakes">Mistakes</a>
+            <a href="#faq">FAQ</a>
+          </nav>
+          <h2>Fit checklist</h2>
+          <ul>
+            <li>Measure usable width.</li>
+            <li>Measure usable depth.</li>
+            <li>Check moving parts.</li>
+            <li>Leave room to access it.</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
