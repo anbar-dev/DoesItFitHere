@@ -286,6 +286,10 @@ function pageDisplayTitle(page) {
   return page.meta.title.replace(` | ${site.name}`, "");
 }
 
+function categoryDisplayName(slug) {
+  return categories.find((category) => category.slug === slug)?.title || slug || "Guide";
+}
+
 function renderKitCards(pages, currentPath) {
   if (!pages.length) {
     return `<div class="empty-state card">
@@ -298,7 +302,7 @@ function renderKitCards(pages, currentPath) {
 ${pages.map((page) => {
     const href = relativeHref(currentPath, page.meta.path);
     return `<article class="card kit-card">
-  <div class="pill-row"><span class="pill">${escapeHtml(page.meta.category || "Kit")}</span></div>
+  <div class="pill-row"><span class="pill">${escapeHtml(categoryDisplayName(page.meta.category))}</span></div>
   <h3>${escapeHtml(pageDisplayTitle(page))}</h3>
   <p>${escapeHtml(page.meta.summary || page.meta.description)}</p>
   <a class="link" href="${href}">Open guide</a>
