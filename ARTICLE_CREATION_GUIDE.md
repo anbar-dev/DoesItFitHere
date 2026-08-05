@@ -296,15 +296,8 @@ rg -n "tag=fitsin-20" docs
 ## Current Published Guides
 
 - `/guides/narrow-kitchen/narrow-trash-can-under-10-inches/`
-- `/guides/bedroom-tight-spaces/nightstand-under-12-inches-wide/`
-- `/guides/under-sink-cabinets/under-sink-organizer-around-pipes/`
-- `/guides/entryway-shoes/shoe-rack-for-narrow-entryway/`
-- `/guides/small-bathroom/slim-laundry-hamper-small-bathroom/`
-- `/guides/small-bathroom/over-toilet-storage-low-ceiling/`
-- `/guides/laundry-corners/drying-rack-small-apartment/`
-- `/guides/tiny-desks/compact-desk-bedroom-corner/`
-- `/guides/narrow-kitchen/rolling-cart-beside-fridge/`
-- `/guides/low-clearance-storage/under-bed-storage-bins-low-clearance/`
+
+Product images should come from Amazon-approved embeds, SiteStripe image links, or the Product Advertising API. Do not download, crop, rewrite, or self-host Amazon product images in `assets/`.
 
 ## Publishing
 

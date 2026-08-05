@@ -843,6 +843,26 @@ h1 {
   margin: 0 0 14px;
 }
 
+.product-specs {
+  display: grid;
+  gap: 6px;
+  margin: 0 0 14px;
+  padding: 0;
+  color: var(--muted);
+  list-style: none;
+  font-size: 14px;
+}
+
+.product-specs li {
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: var(--soft);
+}
+
+.product-specs strong {
+  color: var(--green-dark);
+}
+
 .product-media {
   position: relative;
   aspect-ratio: 1;
@@ -852,6 +872,7 @@ h1 {
   border-radius: var(--radius);
   background: var(--soft);
   overflow: hidden;
+  text-decoration: none;
 }
 
 .product-media img {
