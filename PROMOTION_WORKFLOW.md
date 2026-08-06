@@ -1,10 +1,14 @@
 # Promotion Workflow
 
-This file describes the low-effort distribution flow for Fits In My Space.
+This file is archived/on-demand. It is not part of the default article creation workflow for Fits In My Space.
 
-## Current Strategy
+When the user says "create article", "create an article", "make another article", "fai un altro articolo", or similar, do not create Pinterest pins, promo CSVs, short video scripts, Fiverr briefs, Reddit-angle files, or other promo assets. Follow `ARTICLE_CREATION_GUIDE.md` instead.
 
-For every strong guide, create a small promo pack:
+Use this workflow only when the user explicitly asks for promo assets, Pinterest assets, Reddit angles, video scripts, or a promotional pack.
+
+## Archived Strategy
+
+When explicitly requested, a guide can receive a small promo pack:
 
 - 3 Pinterest-ready vertical PNGs.
 - Pinterest bulk upload CSV rows.
@@ -139,10 +143,10 @@ I made a full measurement guide for this; it contains Amazon affiliate links.
 
 ## Build Commands
 
-Generate promo assets:
+Generate promo assets explicitly:
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\build-promo-assets.ps1
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\build-promo-assets.ps1 -GeneratePromo
 ```
 
 Rebuild site:

@@ -2,6 +2,8 @@
 
 This is the operating manual for creating new Fits In My Space buying guides.
 
+Default rule: article creation is HTML-only. When the user says "create article", "create an article", "make another article", "fai un altro articolo", or similar, create the guide page and do not generate Pinterest pins, promo CSVs, short video scripts, Fiverr briefs, Reddit-angle files, or any other promo assets unless the user explicitly asks for promotion.
+
 Use this guide together with:
 
 - `CONTENT_ROADMAP.md` - what pages to create.
@@ -31,17 +33,13 @@ Amazon Associates tag:
 fitsin-20
 ```
 
-Use this tag in Amazon product links:
-
-```html
-https://www.amazon.com/s?k=SEARCH+TERM&tag=fitsin-20
-```
-
-Direct product links may also be used when the product has been checked recently:
+Use this tag in direct Amazon product links for published product cards:
 
 ```html
 https://www.amazon.com/dp/ASIN/ref=nosim?tag=fitsin-20
 ```
+
+Generic Amazon search links may be useful during research, but do not publish product cards with generic Amazon search links.
 
 Do not manually state Amazon prices, ratings, review counts, Prime status, stock status, delivery dates, coupons, discounts, or availability. These change too often.
 
@@ -56,7 +54,7 @@ src/pages/
 src/kits/
 assets/
 scripts/
-promo/
+promo/ (only when explicitly creating promo assets)
 CONTENT_ROADMAP.md
 ARTICLE_CREATION_GUIDE.md
 PROMOTION_WORKFLOW.md
@@ -79,6 +77,29 @@ GitHub Pages publishes:
 ```text
 main branch /docs folder
 ```
+
+## Credit-Light Context Rules
+
+Article creation should use the minimum context needed to publish a correct page. Do not read the whole repository by default.
+
+For a normal new article, read only:
+
+- `ARTICLE_CREATION_GUIDE.md`;
+- the relevant rows in `CONTENT_ROADMAP.md`;
+- `src/KIT_PAGE_TEMPLATE.txt` if structure is needed;
+- one or two existing article source files only when local pattern context is needed;
+- `scripts/build-site.js` only when build behavior or category behavior is unclear.
+
+Do not read promotion docs, promo assets, old clone/rebrand docs, or unrelated source pages unless the user asks or the article is blocked without that context.
+
+The default article task is:
+
+1. Pick or follow the requested roadmap topic.
+2. Create or modify the article HTML source.
+3. Update `CONTENT_ROADMAP.md`.
+4. Build the site.
+5. Verify generated page, sitemap, category link, affiliate links, product images, and analytics if present.
+6. Commit and push.
 
 ## Page Metadata
 
@@ -163,11 +184,13 @@ Example:
 
 ```html
 <div class="product">
-  <div class="product-media text-only"><span>Measure: under 10 in. wide</span></div>
+  <a class="product-media" href="https://www.amazon.com/dp/ASIN/ref=nosim?tag=fitsin-20" aria-label="View product on Amazon">
+    <img src="https://m.media-amazon.com/images/I/REAL_IMAGE_ID._AC_SL1500_.jpg" alt="Descriptive product name">
+  </a>
   <div>
     <h3>Slim rectangular trash can <span>for a 9-inch cabinet gap</span></h3>
     <p>Choose a straight-sided can and check lid swing. Skip round cans if the available width is the limiting measurement.</p>
-    <a class="button amazon" href="https://www.amazon.com/s?k=slim+trash+can+under+10+inches&tag=fitsin-20">Search on Amazon</a>
+    <a class="button amazon" href="https://www.amazon.com/dp/ASIN/ref=nosim?tag=fitsin-20">View on Amazon</a>
   </div>
 </div>
 ```
@@ -244,9 +267,14 @@ Hero/category imagery:
 
 Product images:
 
-- Use direct Amazon product images only when verified from the current Amazon product page.
+- Published product cards must have visible product images.
+- Use direct Amazon product image URLs found on the live product page or in the current page data, such as `https://m.media-amazon.com/images/I/...jpg`.
+- This project has an Amazon approval path for using Amazon-hosted product images to promote the matching Amazon product with the correct affiliate link.
 - Do not download Amazon product images into the repository.
-- Text-only measurement cards are acceptable when using Amazon search links.
+- Do not crop, edit, transform into derivative promo graphics, or self-host Amazon product images.
+- Verify that each image URL responds and renders a real product image, not a white placeholder, 1x1 pixel, broken file, or unrelated product.
+- The product image must match the ASIN linked in the product card.
+- Do not publish articles with placeholder product cards, missing images, or generic Amazon search links.
 
 ## Research Workflow
 
@@ -281,9 +309,13 @@ After creating a page:
    - generated page exists under `docs/`;
    - category page links to it;
    - `docs/sitemap.xml` includes it;
-   - Amazon links include `tag=fitsin-20`;
+   - Amazon product links include `tag=fitsin-20`;
+   - published product cards use direct product links, not generic Amazon search links;
+   - product image URLs respond and show the matching product;
+   - no product card has a placeholder or missing image;
    - no old brand, old domain, or old affiliate tag remains;
-   - no manual prices, ratings, review counts, Prime status, or availability.
+   - no manual prices, ratings, review counts, Prime status, or availability;
+   - analytics tag appears in the generated page if analytics is enabled in `scripts/build-site.js`.
 
 Useful checks:
 
@@ -295,26 +327,26 @@ rg -n "tag=fitsin-20" docs
 
 ## Current Published Guides
 
-- `/guides/narrow-kitchen/narrow-trash-can-under-10-inches/`
-
-Product images should come from Amazon-approved embeds, SiteStripe image links, or the Product Advertising API. Do not download, crop, rewrite, or self-host Amazon product images in `assets/`.
+See `CONTENT_ROADMAP.md` and generated category pages for the current published list.
 
 ## Publishing
 
 After rebuild:
 
 ```powershell
-git add .
-git commit -m "Rebrand site to Fits In My Space"
+git add CONTENT_ROADMAP.md src docs
+git commit -m "Publish article guide"
 git push
 ```
 
 ## Promotion Workflow
 
-After publishing a strong guide, generate a promo pack:
+Promotion is archived/on-demand. Do not run promo generation during normal article creation.
+
+Only when the user explicitly asks for promo assets, generate a promo pack:
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\build-promo-assets.ps1
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\build-promo-assets.ps1 -GeneratePromo
 ```
 
 Promo packs live in `promo/` and are copied into `docs/promo/` by the static site build.

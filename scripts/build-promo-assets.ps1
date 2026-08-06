@@ -1,6 +1,16 @@
-Add-Type -AssemblyName System.Drawing
+param(
+  [switch]$GeneratePromo
+)
 
 $ErrorActionPreference = "Stop"
+
+if (-not $GeneratePromo) {
+  Write-Host "Promo generation is archived/on-demand. No files were created or modified."
+  Write-Host "Run with -GeneratePromo to build Pinterest/social promo assets explicitly."
+  exit 0
+}
+
+Add-Type -AssemblyName System.Drawing
 
 $Root = Resolve-Path (Join-Path $PSScriptRoot "..")
 $PromoRoot = Join-Path $Root "promo"
