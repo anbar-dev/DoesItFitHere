@@ -22,9 +22,9 @@ const categories = [
     eyebrow: "Narrow Kitchen",
     description: "Slim trash cans, rolling carts, shallow shelves, compact pantry cabinets, and narrow kitchen storage that depends on width and depth.",
     planned: [
-      "Small pantry cabinet for tiny kitchen",
       "Slim recycling bin for tiny kitchen",
       "Narrow kitchen shelf under 8 inches deep",
+      "Magnetic spice rack for fridge side",
       "Slim dish drying rack for tiny counter",
       "Skinny kitchen island under 18 inches deep"
     ]
