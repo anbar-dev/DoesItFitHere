@@ -87,7 +87,7 @@ The site uses a tiny static generator:
 | planned | Low-Clearance Storage | Storage Bins for Under Bed Low Clearance | `/guides/low-clearance-storage/under-bed-storage-bins-low-clearance/` | storage bins for under bed low clearance; under bed bins under 6 inches; low profile underbed storage | low bins, fabric bags, rolling drawers |
 | published | Narrow Kitchen | Small Pantry Cabinet for Tiny Kitchen | `/guides/narrow-kitchen/small-pantry-cabinet-tiny-kitchen/` | small pantry cabinet for tiny kitchen; narrow pantry cabinet shallow depth; freestanding pantry under 18 inches wide | slim pantry cabinets, tall narrow shelves |
 | published | Bedroom Tight Spaces | Narrow Side Table for Couch | `/guides/bedroom-tight-spaces/narrow-side-table-for-couch/` | narrow side table for couch; slim end table under 10 inches; skinny table beside sofa | C-tables, skinny end tables |
-| next | Under-Sink & Cabinets | Cabinet Risers for Shallow Cabinets | `/guides/under-sink-cabinets/cabinet-risers-shallow-cabinets/` | cabinet risers for shallow cabinets; small cabinet shelf risers; narrow cabinet organizer shelves | risers, tier shelves, stackable shelves |
+| published | Under-Sink & Cabinets | Cabinet Risers for Shallow Cabinets | `/guides/under-sink-cabinets/cabinet-risers-shallow-cabinets/` | cabinet risers for shallow cabinets; small cabinet shelf risers; narrow cabinet organizer shelves | risers, tier shelves, stackable shelves |
 | next | Measurement Guides | How to Measure a Narrow Gap Before Buying Storage | `/guides/measurement-guides/measure-narrow-gap-storage/` | how to measure narrow gap for storage; measure gap beside fridge; buying storage for awkward gap | tape measures, painter tape, gap templates |
 
 ## 100+ Article Ideas
@@ -106,7 +106,7 @@ The site uses a tiny static generator:
 | 10 | planned | Low-Clearance Storage | Storage Bins for Under Bed Low Clearance | `/guides/low-clearance-storage/under-bed-storage-bins-low-clearance/` | storage bins under bed low clearance; under bed bins under 6 inches | low bins |
 | 11 | published | Narrow Kitchen | Small Pantry Cabinet for Tiny Kitchen | `/guides/narrow-kitchen/small-pantry-cabinet-tiny-kitchen/` | small pantry cabinet tiny kitchen; narrow freestanding pantry | pantry cabinets |
 | 12 | published | Bedroom Tight Spaces | Narrow Side Table for Couch | `/guides/bedroom-tight-spaces/narrow-side-table-for-couch/` | narrow side table for couch; skinny end table | side tables |
-| 13 | next | Under-Sink & Cabinets | Cabinet Risers for Shallow Cabinets | `/guides/under-sink-cabinets/cabinet-risers-shallow-cabinets/` | cabinet risers shallow cabinets; small cabinet shelf risers | cabinet risers |
+| 13 | published | Under-Sink & Cabinets | Cabinet Risers for Shallow Cabinets | `/guides/under-sink-cabinets/cabinet-risers-shallow-cabinets/` | cabinet risers shallow cabinets; small cabinet shelf risers | cabinet risers |
 | 14 | next | Measurement Guides | How to Measure a Narrow Gap Before Buying Storage | `/guides/measurement-guides/measure-narrow-gap-storage/` | measure narrow gap for storage; measure gap beside fridge | tape measures |
 | 15 | planned | Narrow Kitchen | Slim Recycling Bin for Tiny Kitchen | `/guides/narrow-kitchen/slim-recycling-bin-tiny-kitchen/` | slim recycling bin tiny kitchen; narrow recycling bin | recycling bins |
 | 16 | planned | Narrow Kitchen | Narrow Kitchen Shelf Under 8 Inches Deep | `/guides/narrow-kitchen/narrow-kitchen-shelf-under-8-inches-deep/` | narrow kitchen shelf under 8 inches deep; shallow kitchen shelf | narrow shelves |
