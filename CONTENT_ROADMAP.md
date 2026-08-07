@@ -88,7 +88,7 @@ The site uses a tiny static generator:
 | published | Narrow Kitchen | Small Pantry Cabinet for Tiny Kitchen | `/guides/narrow-kitchen/small-pantry-cabinet-tiny-kitchen/` | small pantry cabinet for tiny kitchen; narrow pantry cabinet shallow depth; freestanding pantry under 18 inches wide | slim pantry cabinets, tall narrow shelves |
 | published | Bedroom Tight Spaces | Narrow Side Table for Couch | `/guides/bedroom-tight-spaces/narrow-side-table-for-couch/` | narrow side table for couch; slim end table under 10 inches; skinny table beside sofa | C-tables, skinny end tables |
 | published | Under-Sink & Cabinets | Cabinet Risers for Shallow Cabinets | `/guides/under-sink-cabinets/cabinet-risers-shallow-cabinets/` | cabinet risers for shallow cabinets; small cabinet shelf risers; narrow cabinet organizer shelves | risers, tier shelves, stackable shelves |
-| next | Measurement Guides | How to Measure a Narrow Gap Before Buying Storage | `/guides/measurement-guides/measure-narrow-gap-storage/` | how to measure narrow gap for storage; measure gap beside fridge; buying storage for awkward gap | tape measures, painter tape, gap templates |
+| published | Measurement Guides | How to Measure a Narrow Gap Before Buying Storage | `/guides/measurement-guides/measure-narrow-gap-storage/` | how to measure narrow gap for storage; measure gap beside fridge; buying storage for awkward gap | tape measures, painter tape, gap templates |
 
 ## 100+ Article Ideas
 
