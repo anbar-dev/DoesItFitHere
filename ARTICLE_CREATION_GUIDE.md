@@ -175,6 +175,7 @@ Prefer products that:
 Each product card should include:
 
 - clear product type or exact product title;
+- one clearly visible product image that matches the linked Amazon ASIN;
 - "for..." phrase tied to the fit use case;
 - why it belongs;
 - when to skip it;
@@ -267,13 +268,15 @@ Hero/category imagery:
 
 Product images:
 
-- Published product cards must have visible product images.
+- Every published product card must contain one clearly visible product image. The reader must be able to recognize the product in the rendered card without opening Amazon.
+- Use the `.product-media` link-and-image pattern shown above for every card. Never use `product-media text-only`, a text-only placeholder, or a card without an `<img>` element.
 - Use direct Amazon product image URLs found on the live product page or in the current page data, such as `https://m.media-amazon.com/images/I/...jpg`.
 - This project has an Amazon approval path for using Amazon-hosted product images to promote the matching Amazon product with the correct affiliate link.
 - Do not download Amazon product images into the repository.
 - Do not crop, edit, transform into derivative promo graphics, or self-host Amazon product images.
-- Verify that each image URL responds and renders a real product image, not a white placeholder, 1x1 pixel, broken file, or unrelated product.
+- Verify that each image URL responds and renders a sufficiently large, real product image, not a white placeholder, 1x1 pixel, broken file, tiny thumbnail, or unrelated product. Prefer a high-resolution Amazon variant such as `._AC_SL1500_.jpg` when available.
 - The product image must match the ASIN linked in the product card.
+- After the build, open the generated page and visually check every product card: the image is loaded, clearly visible, not clipped into an unusable thumbnail, and matches the product title.
 - Do not publish articles with placeholder product cards, missing images, or generic Amazon search links.
 
 ## Research Workflow
@@ -311,8 +314,10 @@ After creating a page:
    - `docs/sitemap.xml` includes it;
    - Amazon product links include `tag=fitsin-20`;
    - published product cards use direct product links, not generic Amazon search links;
-   - product image URLs respond and show the matching product;
-   - no product card has a placeholder or missing image;
+   - every product card has a clickable `.product-media` block with an `<img>` and a matching direct Amazon image URL;
+   - product image URLs respond and show the matching product at a readable size;
+   - no source or generated page contains `product-media text-only`, a placeholder image, or a missing image;
+   - visually inspect every generated product card before publishing;
    - no old brand, old domain, or old affiliate tag remains;
    - no manual prices, ratings, review counts, Prime status, or availability;
    - analytics tag appears in the generated page if analytics is enabled in `scripts/build-site.js`.

@@ -4,6 +4,8 @@ Static affiliate/editorial site for shopping guides built around physical fit: n
 
 When the user says "create article", "create an article", "make another article", "fai un altro articolo", or similar, the default workflow is HTML-only and follows `ARTICLE_CREATION_GUIDE.md`. That means: update the source article HTML, update `CONTENT_ROADMAP.md`, build the site, verify the generated page, then commit and push. Promo assets are not part of the default article workflow.
 
+Non-negotiable product-image rule: every published product card must show a clearly visible, real product image that matches the linked Amazon ASIN. Use the direct Amazon image URL inside a clickable `.product-media` block. Never publish a product card with `text-only`, a text placeholder, a missing image, a broken/blank image, or an image that cannot be clearly recognized in the generated page.
+
 ## Structure
 
 - `src/pages/` - standalone page body HTML with metadata.

@@ -39,11 +39,14 @@ summary: One-sentence summary used on category cards.
             <h2>Recommended product types</h2>
             <div class="product-list">
               <div class="product">
-                <div class="product-media text-only"><span>Measure first</span></div>
+                <!-- Replace ASIN and REAL_IMAGE_ID with matching live Amazon values before publishing. -->
+                <a class="product-media" href="https://www.amazon.com/dp/ASIN/ref=nosim?tag=fitsin-20" aria-label="View product on Amazon">
+                  <img src="https://m.media-amazon.com/images/I/REAL_IMAGE_ID._AC_SL1500_.jpg" alt="Descriptive product name">
+                </a>
                 <div>
                   <h3>Product type <span>for the exact fit use case</span></h3>
                   <p>Explain why it belongs here and when to skip it.</p>
-                  <a class="button amazon" href="https://www.amazon.com/s?k=SEARCH+TERM&tag=fitsin-20">Search on Amazon</a>
+                  <a class="button amazon" href="https://www.amazon.com/dp/ASIN/ref=nosim?tag=fitsin-20">View on Amazon</a>
                 </div>
               </div>
             </div>

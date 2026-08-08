@@ -142,7 +142,8 @@ Keep:
 
 - source/output rules;
 - metadata requirements;
-- product cards;
+- product cards with one clearly visible, matching Amazon product image per card;
+- the rule that no published card may use `product-media text-only`, a text placeholder, or a missing/broken image;
 - no manual Amazon prices, ratings, review counts, Prime status, delivery dates, or availability;
 - FAQ and JSON-LD;
 - internal links;
