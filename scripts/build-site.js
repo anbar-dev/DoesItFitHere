@@ -217,7 +217,7 @@ function renderHeader(root) {
       <a class="brand" href="${root}"><img class="brand-logo" src="${root}assets/brand/favicon-192.png" alt="" width="34" height="34"><span>${site.name}</span></a>
       <button class="menu-button" data-menu-button aria-expanded="false" aria-label="Open menu">=</button>
       <div class="nav-links" data-nav-links>
-        <a href="${root}guides/">Guides</a>
+        <a href="${root}guides/">Categories</a>
         <a href="${root}about/">About</a>
         <a href="${root}contact/">Contact</a>
         <a href="${root}affiliate-disclosure/">Disclosure</a>
@@ -272,7 +272,7 @@ ${renderHeader(root)}
 ${body.trim()}
   </main>
 ${renderFooter(root)}
-  <script src="${root}assets/script.js"></script>
+  <script src="${root}assets/script.js?v=2"></script>
 </body>
 </html>
 `;
@@ -301,9 +301,11 @@ function categoryDisplayName(slug) {
 
 function renderKitCards(pages, currentPath) {
   if (!pages.length) {
+    const browseHref = relativeHref(currentPath, "/guides/");
     return `<div class="empty-state card">
-  <h2>Kit pages coming soon.</h2>
+  <h2>Guides coming soon.</h2>
   <p>This category is being shaped around measurable fit problems. Start with the planned topics below, or browse another category with finished guides.</p>
+  <a class="link" href="${browseHref}">Browse all categories</a>
 </div>`;
   }
 

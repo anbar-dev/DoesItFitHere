@@ -5,6 +5,7 @@ if (menuButton && navLinks) {
   menuButton.addEventListener("click", () => {
     const isOpen = navLinks.classList.toggle("open");
     menuButton.setAttribute("aria-expanded", String(isOpen));
+    menuButton.setAttribute("aria-label", isOpen ? "Close menu" : "Open menu");
   });
 }
 
@@ -15,24 +16,24 @@ const resultLink = document.querySelector("[data-result-link]");
 
 const finderResults = {
   width: {
-    title: "Start with the Narrow Kitchen category.",
+    title: "Start with a narrow-kitchen guide.",
     copy: "Width is the first filter for slim trash cans, rolling carts, shallow pantry shelves, and tight counter storage.",
-    href: "guides/narrow-kitchen/"
+    href: "guides/narrow-kitchen/narrow-trash-can-under-10-inches/"
   },
   pipes: {
-    title: "Use Under-Sink & Cabinets.",
+    title: "Start with an under-sink guide.",
     copy: "Pipe position, valves, cabinet hinges, disposal size, and door swing decide which organizer can actually fit.",
-    href: "guides/under-sink-cabinets/"
+    href: "guides/under-sink-cabinets/under-sink-organizer-around-pipes/"
   },
   height: {
-    title: "Check Low-Clearance Storage.",
+    title: "Start with a low-clearance guide.",
     copy: "Under-bed bins, over-toilet shelves, and drying racks all need real usable height, not just a rough guess.",
-    href: "guides/low-clearance-storage/"
+    href: "guides/low-clearance-storage/under-bed-storage-bins-low-clearance/"
   },
   door: {
-    title: "Try Vertical Storage or cabinet guides.",
-    copy: "Door swing and hook thickness matter for over-door racks, cabinet organizers, and tight entryway storage.",
-    href: "guides/vertical-storage/"
+    title: "Check a door-clearance guide first.",
+    copy: "Door swing, hinges, lid paths, and handle clearance can decide whether a product works after installation.",
+    href: "guides/narrow-kitchen/trash-can-under-sink-door-clearance/"
   }
 };
 

@@ -17,6 +17,13 @@ Non-negotiable product-image rule: every published product card must show a clea
 - `CONTENT_ROADMAP.md` - editorial roadmap and long-tail backlog.
 - `ARTICLE_CREATION_GUIDE.md` - rules and workflow for creating fit-first buying guides.
 
+## Navigation model
+
+- `/guides/` is the category directory, not a flat list of every article.
+- Category pages are for browsing; the homepage's featured problems and quick picker link directly to published guides to keep the path short.
+- A category without published articles is intentionally marked as coming soon and links back to the category directory.
+- `/contact/` is currently a static topic-request form. It does not send email until a submission service is connected.
+
 ## Build
 
 Run:

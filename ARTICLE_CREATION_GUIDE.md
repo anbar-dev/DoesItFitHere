@@ -78,6 +78,13 @@ GitHub Pages publishes:
 main branch /docs folder
 ```
 
+## Navigation Conventions
+
+- `/guides/` is the category directory, not a flat list of every article.
+- Category pages are for browsing. Homepage featured problems and quick-picker results should point directly to published guides when a matching page exists.
+- If a category has no published articles, keep the generated “Guides coming soon” state and its link back to `/guides/`.
+- The `/contact/` form is a static topic-request form and is not connected to email yet.
+
 ## Credit-Light Context Rules
 
 Article creation should use the minimum context needed to publish a correct page. Do not read the whole repository by default.
@@ -249,6 +256,14 @@ Each page should include 2-4 internal links to related categories or published g
 
 If a related page is not published yet, link to the category hub.
 
+Relative path rule for an article at `/guides/category-slug/article-slug/`:
+
+- use `../` for its own category;
+- use `../../other-category/` for another category;
+- use `../../other-category/other-article/` for a published article in another category.
+
+Check the generated links after every build. A link that looks correct in the source file can still resolve to the wrong folder when the article is nested under a category.
+
 Example:
 
 ```html
@@ -317,6 +332,8 @@ After creating a page:
    - every product card has a clickable `.product-media` block with an `<img>` and a matching direct Amazon image URL;
    - product image URLs respond and show the matching product at a readable size;
    - no source or generated page contains `product-media text-only`, a placeholder image, or a missing image;
+   - all relative internal links resolve to an existing generated page;
+   - if the article is featured on the homepage or quick picker, those direct links resolve to the new page;
    - visually inspect every generated product card before publishing;
    - no old brand, old domain, or old affiliate tag remains;
    - no manual prices, ratings, review counts, Prime status, or availability;
@@ -339,7 +356,7 @@ See `CONTENT_ROADMAP.md` and generated category pages for the current published 
 After rebuild:
 
 ```powershell
-git add CONTENT_ROADMAP.md src docs
+git add CONTENT_ROADMAP.md src assets scripts docs
 git commit -m "Publish article guide"
 git push
 ```

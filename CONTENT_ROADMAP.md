@@ -50,12 +50,19 @@ The site uses a tiny static generator:
 - GitHub Pages should publish `/docs/`.
 - Category pages and `sitemap.xml` are generated automatically.
 
+Navigation rules:
+
+- `/guides/` is the category directory; it is not a flat “all articles” index.
+- Use category links when the reader still needs to browse. Use direct article links for homepage featured problems and quick-picker results.
+- If a category has no published articles, keep its “Guides coming soon” state and its link back to `/guides/`.
+- The `/contact/` form is a static topic-request form and is not connected to email yet.
+
 ## Current Published Pages
 
 | Status | Page | Current URL | Primary intent |
 | --- | --- | --- | --- |
 | published | Home | `/` | fit-first shopping portal |
-| published | All guides | `/guides/` | guide directory |
+| published | Guide categories | `/guides/` | category directory |
 | published | Narrow Kitchen category | `/guides/narrow-kitchen/` | narrow kitchen product hub |
 | published | Under-Sink & Cabinets category | `/guides/under-sink-cabinets/` | cabinet fit hub |
 | published | Small Bathroom category | `/guides/small-bathroom/` | tight bathroom product hub |
@@ -69,7 +76,7 @@ The site uses a tiny static generator:
 | published | About | `/about/` | trust and positioning |
 | published | Affiliate disclosure | `/affiliate-disclosure/` | Amazon disclosure |
 | published | Privacy | `/privacy/` | basic privacy |
-| published | Contact/request placeholder | `/contact/` | future requests |
+| published | Contact/request form (static) | `/contact/` | topic requests; no email delivery yet |
 
 ## Priority Pages
 
