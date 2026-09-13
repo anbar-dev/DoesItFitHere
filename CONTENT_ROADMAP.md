@@ -104,7 +104,7 @@ Navigation rules:
 | 1 | published | Narrow Kitchen | Narrow Trash Can Under 10 Inches Wide | `/guides/narrow-kitchen/narrow-trash-can-under-10-inches/` | narrow trash can under 10 inches wide; slim kitchen trash can narrow gap | slim trash cans |
 | 2 | published | Bedroom Tight Spaces | Nightstand Under 12 Inches Wide | `/guides/bedroom-tight-spaces/nightstand-under-12-inches-wide/` | nightstand under 12 inches wide; narrow bedside table | slim nightstands |
 | 3 | published | Under-Sink & Cabinets | Under Sink Organizer Around Pipes | `/guides/under-sink-cabinets/under-sink-organizer-around-pipes/` | under sink organizer around pipes; under sink storage with plumbing | under-sink organizers |
-| 4 | planned | Entryway & Shoes | Shoe Rack for Narrow Entryway | `/guides/entryway-shoes/shoe-rack-for-narrow-entryway/` | shoe rack for narrow entryway; slim hallway shoe storage | shoe racks |
+| 4 | published | Entryway & Shoes | Shoe Rack for Narrow Entryway | `/guides/entryway-shoes/shoe-rack-for-narrow-entryway/` | shoe rack for narrow entryway; slim hallway shoe storage | shoe racks |
 | 5 | planned | Small Bathroom | Slim Laundry Hamper for Small Bathroom | `/guides/small-bathroom/slim-laundry-hamper-small-bathroom/` | slim laundry hamper small bathroom; narrow hamper under 10 inches | slim hampers |
 | 6 | planned | Small Bathroom | Over Toilet Storage for Low Ceiling Bathroom | `/guides/small-bathroom/over-toilet-storage-low-ceiling/` | over toilet storage low ceiling bathroom; short toilet shelf | over-toilet shelves |
 | 7 | planned | Laundry Corners | Drying Rack for Small Apartment | `/guides/laundry-corners/drying-rack-small-apartment/` | drying rack for small apartment; compact clothes drying rack | foldable drying racks |
