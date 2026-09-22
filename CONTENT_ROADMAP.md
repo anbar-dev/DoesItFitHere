@@ -137,7 +137,7 @@ Navigation rules:
 | 34 | published | Under-Sink & Cabinets | Under Sink Mat That Fits Around Pipes | `/guides/under-sink-cabinets/under-sink-mat-fits-around-pipes/` | under sink mat fits around pipes; sink cabinet liner pipe cutout | sink mats |
 | 35 | published | Small Bathroom | Narrow Bathroom Cabinet Under 12 Inches Deep | `/guides/small-bathroom/narrow-bathroom-cabinet-under-12-inches-deep/` | narrow bathroom cabinet under 12 inches deep; shallow bathroom storage | slim cabinets |
 | 36 | published | Small Bathroom | Slim Toilet Paper Storage for Tiny Bathroom | `/guides/small-bathroom/slim-toilet-paper-storage-tiny-bathroom/` | slim toilet paper storage tiny bathroom; narrow toilet paper holder | TP storage |
-| 37 | planned | Small Bathroom | Corner Shelf for Small Shower | `/guides/small-bathroom/corner-shelf-small-shower/` | corner shelf small shower; narrow shower caddy | shower shelves |
+| 37 | published | Small Bathroom | Corner Shelf for Small Shower | `/guides/small-bathroom/corner-shelf-small-shower/` | corner shelf small shower; narrow shower caddy | shower shelves |
 | 38 | planned | Small Bathroom | Over Door Towel Rack for Small Bathroom | `/guides/small-bathroom/over-door-towel-rack-small-bathroom/` | over door towel rack small bathroom; towel storage no wall space | towel racks |
 | 39 | planned | Small Bathroom | Narrow Medicine Cabinet Organizer | `/guides/small-bathroom/narrow-medicine-cabinet-organizer/` | narrow medicine cabinet organizer; small bathroom cabinet bins | small bins |
 | 40 | planned | Small Bathroom | Small Bathroom Rolling Cart Under 7 Inches Wide | `/guides/small-bathroom/rolling-cart-under-7-inches-wide/` | bathroom rolling cart under 7 inches wide; slim bathroom cart | slim carts |
